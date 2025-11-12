@@ -125,3 +125,7 @@ a {
     font-weight: 700;
     font-family: Roboto;
 }
+
+#section4 {
+    display: flex;
+}
