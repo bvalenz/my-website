@@ -81,3 +81,12 @@ a {
     border-radius: 8px;
     border: none;
 }
+
+.section2-main-text {
+    display: flex;
+    justify-content: center;
+}
+
+.images-all {
+    display: flex;
+}
