@@ -55,11 +55,13 @@ a {
     color: #E5E7EB;
     display: flex;
     padding: 10px 100px 60px 100px;
+    gap: 30px;
 }
 
-.section-left,
-.section-right {
+.section1-left,
+.section1-right {
     display: flex;
     flex: 1;
     justify-content: center;
+    flex-direction: column;
 }
