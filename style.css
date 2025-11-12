@@ -24,12 +24,17 @@ header {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .secondary-text {
     font-size: 18px;
     font-weight: 200;
     color: #E5E7EB;
+}
+
+.sign-up {
+    display: flex;
 }
 
 p {
@@ -64,4 +69,15 @@ a {
     flex: 1;
     justify-content: center;
     flex-direction: column;
+    gap: 6px;
+}
+
+.sign-up {
+    align-self: flex-start;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: Roboto;
+    border-radius: 8px;
+    border: none;
 }
