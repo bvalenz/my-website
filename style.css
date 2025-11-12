@@ -108,5 +108,20 @@ a {
     background-color: #E5E7EB;
     text-align: center;
     padding: 100px;
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.Thor {
+    align-self: flex-end;
+    padding-top: 12px;
+    font-weight: 700;
+    font-family: Roboto;
 }
