@@ -103,3 +103,10 @@ a {
     align-items: center;
     text-align: center;
 }
+
+#section3 {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 100px;
+    max-width: 200px;
+}
