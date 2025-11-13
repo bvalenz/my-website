@@ -128,4 +128,27 @@ a {
 
 #section4 {
     display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.section4-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up4 {
+    align-self: flex-start;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: Roboto;
+    border-radius: 8px;
+    border: none;
 }
